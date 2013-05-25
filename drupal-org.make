@@ -28,7 +28,7 @@ projects[apachesolr_og][subdir] = "contrib"
 projects[apachesolr_og][download][type] = "git"
 projects[apachesolr_og][download][url] = "http://git.drupal.org/project/apachesolr_og.git"
 projects[apachesolr_og][download][branch] = "7.x-1.x"
-projects[apachesolr_og][download]revision] = "49820b4a4fcff7c1c4efe449da033fb6d8711ac5"
+;projects[apachesolr_og][download][revision] = "49820b4a4fcff7c1c4efe449da033fb6d8711ac5"
 
 projects[apachesolr_proximity][type] = "module"
 projects[apachesolr_proximity][subdir] = "contrib"
@@ -39,7 +39,7 @@ projects[apachesolr_user][subdir] = "contrib"
 projects[apachesolr_user][download][type] = "git"
 projects[apachesolr_user][download][url] = "http://git.drupal.org/project/apachesolr_user.git"
 projects[apachesolr_user][download][branch] = "7.x-1.x"
-projects[apachesolr_user][download]revision] = "a86c5aebfceaf4a3fc53544762a36ca1b70809d5"
+;projects[apachesolr_user][download][revision] = "a86c5aebfceaf4a3fc53544762a36ca1b70809d5"
 
 projects[connector][type] = "module"
 projects[connector][subdir] = "contrib"
@@ -52,7 +52,7 @@ projects[ckeditor][download][url] = "http://git.drupal.org/project/ckeditor.git"
 ; Use Libraries API for ckeditor.
 ; http://drupal.org/node/1063482#comment-6964504
 projects[ckeditor][download][branch] = "7.x-1.x"
-projects[ckeditor][download][revision] = "f6abbda"
+;projects[ckeditor][download][revision] = "f6abbda"
 
 ; Fatal error if Libraries module is enabled after CKEditor
 ; http://drupal.org/node/1898294#comment-6980796
@@ -67,7 +67,7 @@ projects[custom_search][subdir] = "contrib"
 projects[custom_search][download][type] = "git"
 projects[custom_search][download][url] = "http://git.drupal.org/project/custom_search.git"
 projects[custom_search][download][branch] = "7.x-1.x"
-projects[custom_search][download][revision] = "0d55d1e379931e7b202d8346e092cc73bdcdaa22"
+;projects[custom_search][download][revision] = "0d55d1e379931e7b202d8346e092cc73bdcdaa22"
 
 projects[date][type] = "module"
 projects[date][subdir] = "contrib"
@@ -107,7 +107,7 @@ projects[entityreference][subdir] = "contrib"
 projects[entityreference][download][type] = "git"
 projects[entityreference][download][url] = "http://git.drupal.org/project/entityreference.git"
 projects[entityreference][download][branch] = "7.x-1.x"
-projects[entityreference][download][revision] = "1c176daef3e7483389cbebeb34784b3af6521f7f"
+;projects[entityreference][download][revision] = "1c176daef3e7483389cbebeb34784b3af6521f7f"
 
 ; Profile has no recommended release
 projects[edit_profile][type] = "module"
@@ -123,7 +123,7 @@ projects[features][subdir] = "contrib"
 projects[features][download][type] = "git"
 projects[features][download][url] = "http://git.drupal.org/project/features.git"
 projects[features][download][branch] = "7.x-2.x"
-projects[features][download][revision] = "54e2810bee966777426f0ca5294c6e7252ea7549"
+;projects[features][download][revision] = "54e2810bee966777426f0ca5294c6e7252ea7549"
 
 projects[flag][type] = "module"
 projects[flag][subdir] = "contrib"
@@ -150,7 +150,7 @@ projects[admin_icons][subdir] = "contrib"
 projects[admin_icons][download][type] = "git"
 projects[admin_icons][download][url] = "http://git.drupal.org/project/admin_icons.git"
 projects[admin_icons][download][branch] = "7.x-1.x"
-projects[admin_icons][download][revision] = "60d9f28801533fecc92216a60d444d89d80e7611"
+;projects[admin_icons][download][revision] = "60d9f28801533fecc92216a60d444d89d80e7611"
 
 projects[libraries][type] = "module"
 projects[libraries][subdir] = "contrib"
@@ -169,7 +169,7 @@ projects[message][subdir] = "contrib"
 projects[message][download][type] = "git"
 projects[message][download][url] = "http://git.drupal.org/project/message.git"
 projects[message][download][branch] = "7.x-1.x"
-projects[message][download][revision] = "5ae12e8c0b7482f8525106825009409f3b9b7140"
+;projects[message][download][revision] = "5ae12e8c0b7482f8525106825009409f3b9b7140"
 
 ; Make message access alterable.
 ; http://drupal.org/node/1920560#comment-7080942
@@ -180,14 +180,14 @@ projects[message_notify][subdir] = "contrib"
 projects[message_notify][download][type] = "git"
 projects[message_notify][download][url] = "http://git.drupal.org/project/message_notify.git"
 projects[message_notify][download][branch] = "7.x-2.x"
-projects[message_notify][download][revision] = "e546b0a6e3d2dfd48f4fd3a4d45806c066c9a9bc"
+;projects[message_notify][download][revision] = "e546b0a6e3d2dfd48f4fd3a4d45806c066c9a9bc"
 
 projects[message_subscribe][type] = "module"
 projects[message_subscribe][subdir] = "contrib"
 projects[message_subscribe][download][type] = "git"
 projects[message_subscribe][download][url] = "http://git.drupal.org/project/message_subscribe.git"
 projects[message_subscribe][download][branch] = "7.x-1.x"
-projects[message_subscribe][download][revision] = "9b1d2615621283d39343e4be433fc589fce5fb9d"
+;projects[message_subscribe][download][revision] = "9b1d2615621283d39343e4be433fc589fce5fb9d"
 
 ; Remove "email" as default notifier.
 ; http://drupal.org/node/1828184#comment-7081868
@@ -222,7 +222,7 @@ projects[oauthconnector][subdir] = "contrib"
 projects[oauthconnector][download][type] = "git"
 projects[oauthconnector][download][url] = "http://git.drupal.org/project/oauthconnector.git"
 projects[oauthconnector][download][branch] = "7.x-1.x"
-projects[oauthconnector][download][revision] = "0ce7ac9614710c0f68d0a58cb4ae4667f8bd6fa7"
+;projects[oauthconnector][download][revision] = "0ce7ac9614710c0f68d0a58cb4ae4667f8bd6fa7"
 
 projects[og][type] = "module"
 projects[og][subdir] = "contrib"
@@ -265,14 +265,14 @@ projects[quicktabs][subdir] = "contrib"
 projects[quicktabs][download][type] = "git"
 projects[quicktabs][download][url] = "http://git.drupal.org/project/quicktabs.git"
 projects[quicktabs][download][branch] = "7.x-3.x"
-projects[quicktabs][download][revision] = "89f7fd0b7313782d0f7504996daa36bde798ec79"
+;projects[quicktabs][download][revision] = "89f7fd0b7313782d0f7504996daa36bde798ec79"
 
 projects[radioactivity][type] = "module"
 projects[radioactivity][subdir] = "contrib"
 projects[radioactivity][download][type] = "git"
 projects[radioactivity][download][url] = "http://git.drupal.org/project/radioactivity.git"
 projects[radioactivity][download][branch] = "7.x-2.x"
-projects[radioactivity][download][revision] = "aee21dbed4f54d0e626e3c19ecc550bf1ec656f6"
+;projects[radioactivity][download][revision] = "aee21dbed4f54d0e626e3c19ecc550bf1ec656f6"
 
 ; Radioactivity not compatible with Memcache module
 ; http://drupal.org/node/1860216
@@ -299,7 +299,7 @@ projects[registration][type] = "module"
 projects[registration][download][type] = "git"
 projects[registration][download][url] = "http://git.drupal.org/project/registration.git"
 projects[registration][download][branch] = "7.x-1.x"
-projects[registration][download][revision] = "267f05b"
+;projects[registration][download][revision] = "267f05b"
 
 ; Update Entity cache support
 ; http://drupal.org/node/1867564#comment-7001180
@@ -338,7 +338,7 @@ projects[strongarm][subdir] = "contrib"
 projects[strongarm][download][type] = "git"
 projects[strongarm][download][url] = "http://git.drupal.org/project/strongarm.git"
 projects[strongarm][download][branch] = "7.x-2.x"
-projects[strongarm][download][revision] = "5a2326ba67e59923ecce63d9bb5e0ed6548abdf8"
+;projects[strongarm][download][revision] = "5a2326ba67e59923ecce63d9bb5e0ed6548abdf8"
 
 projects[timeago][type] = "module"
 projects[timeago][subdir] = "contrib"
@@ -346,7 +346,7 @@ projects[timeago][version] = "2.x-dev"
 projects[timeago][download][type] = "git"
 projects[timeago][download][url] = "http://git.drupal.org/project/timeago.git"
 projects[timeago][download][branch] = "7.x-2.x"
-projects[timeago][download][revision] = "768ea66"
+;projects[timeago][download][revision] = "768ea66"
 
 ; Provide a dedicated date type:
 ; http://drupal.org/node/1427226#comment-6638836
@@ -374,7 +374,7 @@ projects[views_field_view][version] = "1.x-dev"
 projects[views_field_view][download][type] = "git"
 projects[views_field_view][download][url] = "http://git.drupal.org/project/views_field_view.git"
 projects[views_field_view][download][branch] = "7.x-1.x"
-projects[views_field_view][download][revision] = "db9308068aa882dce979900baf21df7236f3e4a1"
+;projects[views_field_view][download][revision] = "db9308068aa882dce979900baf21df7236f3e4a1"
 
 projects[views_load_more][type] = "module"
 projects[views_load_more][subdir] = "contrib"
@@ -491,7 +491,7 @@ projects[adaptivetheme][subdir] = "contrib"
 projects[adaptivetheme][download][type] = "git"
 projects[adaptivetheme][download][url] = "git://git.drupal.org/project/adaptivetheme.git"
 projects[adaptivetheme][download][branch] = "7.x-3.x"
-projects[adaptivetheme][download][revision] = "4e29d43"
+;projects[adaptivetheme][download][revision] = "4e29d43"
 
 projects[sky][type] = "theme"
 projects[sky][subdir] = "contrib"
